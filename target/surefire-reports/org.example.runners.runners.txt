@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.example.runners.runners
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 112.121 s <<< FAILURE! - in org.example.runners.runners
+org.example.runners.runners.runScenario  Time elapsed: 18.613 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=108.0.5359.95)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ac465f51edd79fcbe4e1b8f407cca8e5, findElement {using=class name, value=result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VISION\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61094/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac465f51edd79fcbe4e1b8f407cca8e5
+
+org.example.runners.runners.runScenario  Time elapsed: 4.942 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+
+org.example.runners.runners.runScenario  Time elapsed: 8.9 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/iphone-6] but found [https://demo.nopcommerce.com/]
+
+org.example.runners.runners.runScenario  Time elapsed: 4.936 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+
